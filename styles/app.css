@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+a {
+  cursor: pointer;
+}
+a:hover {
+  text-decoration: underline;
+}
+.swiper-testimonials .swiper-wrapper {
+  padding: 20px 10px;
+  align-items: center;
+}
+.swiper-videos .swiper-wrapper {
+  padding: 20px 10px;
+  align-items: center;
+}
+.app-preview .slides {
+  position: absolute;
+  overflow: hidden;
+  height: 100%;
+  width: 366px;
+}
+.app-preview .slides img {
+  max-width: 100%;
+  border-radius: 40px;
+}
+/* .app-preview .slides .slide {
+  position: absolute;
+  top: 0;
+  width: 366px;
+  height: 720px;
+}
+.app-preview .slides .slide:first-child {
+  opacity: 1;
+} */
+.geneVariableBar {
+  height: 150px;
+}
+.MuiTypography-root p {
+  margin: 0;
+}
+.videoFit {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.break-desktop {
+  display: block;
+}
+@media (max-width: 600px) {
+  .break-desktop {
+    display: none;
+  }
+}
+.confeti-desktop {
+  display: block;
+  width: 100%;
+}
+
+.box-wrapper {
+  position: relative;
+  top: 40px;
+}
+.box {
+  position: absolute;
+  width: 620px;
+  height: 350px;
+  margin: 5px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 40px;
+}
+.swiper.swiper-professionals {
+  padding-bottom: 100px;
+  padding-top: 30px;
+}
+.swiper.swiper-professionals .swiper-pagination-bullet-active {
+  background-color: #9a00ff;
+  width: 24px;
+  height: 8px;
+  border-radius: 4px;
+  transition: width 0.3s ease;
+  will-change: width;
+  transform-origin: center;
+}
