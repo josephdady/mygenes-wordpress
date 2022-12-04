@@ -46,7 +46,7 @@ export default function MyApp(props: MyAppProps) {
           <CssBaseline />
           <Navbar children={children} />
           <Component {...pageProps} />
-          <Footer />
+          {/* <Footer /> */}
         </ThemeProvider>
       </CacheProvider>
     </ApolloProvider>
